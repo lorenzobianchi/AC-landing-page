@@ -1,0 +1,295 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+}
+
+.banner {
+  padding-top: 120px;
+  height: 600px;
+}
+
+.banner h1 {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+.banner h2 {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 20px;
+  font-weight: 300;
+  color: #F2F2F2;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+.btn-link {
+  background-color: #fff;
+}
+
+.btn-link:hover {
+  background-color: #f2f2f2;
+  text-decoration: none;
+}
+
+.screenshot {
+  display: block;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  z-index: 99;
+  position: absolute;
+  top: 310px;
+  left:0;
+  right:0;
+  margin: auto;
+
+}
+.demo-btn  {
+  margin-top: 360px;
+}
+
+@media (max-width: 768px) {
+  .demo-btn {
+    margin-top: 100px;
+    }
+  }
+
+.screenshot-text {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #66595c;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .screenshot-text {
+    font-size: 20px;
+    }
+  }
+
+.cool {
+  background:
+  linear-gradient(135deg, #ededed 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #ededed 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#ededed;
+  background-size: 64px 128px
+}
+
+.features-container {
+  background-color: #faf6ec;
+  width: 100%;
+  margin: 0!important;
+}
+
+.features-col {
+  margin-top: 40px;
+  padding:30px;
+}
+
+.features-col h5 {
+  color: #66595c;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.features-col p {
+  color: #66595c;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.margin-bottom {
+  margin-bottom: 60px;
+}
+
+.pmd-card {
+  max-width: 350px;
+  height: auto;
+  margin: auto!important;
+  margin-top: 50px;
+  margin-bottom: 50px!important;
+}
+
+.pmd-card-body,
+.pmd-card-actions {
+  text-align: left;
+}
+
+.sub-title {
+  padding-top: 30px;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #66595c;
+}
+
+.table-inverse {
+  margin: auto;
+  max-width: 700px;
+  margin-bottom: 60px;
+}
+
+.table-inverse li {
+  list-style: none;
+}
+
+.table-title {
+  font-size: 20px!important;
+  color: #ffa500!important;
+}
+
+.input-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: none;
+  margin-bottom: 0px!important;
+}
+
+.register-btn {
+  margin: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ffa500; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ff6600, #ffa500); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ff6600, #ffa500); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ff6600, #ffa500); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ff6600, #ffa500); /* Standard syntax */
+
+}
+
+.footer-title {
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff
+}
+
+.footer-logo {
+  width: 70px;
+  height: auto;
+}
+
+footer table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-align: left!important;
+}
+
+.contact-list {
+  margin: auto;
+  padding-left: 45px;
+}
+
+.contact-list a {
+    padding: 5px;
+    color: #F2F2F2;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+  color: #00ff00;
+}
+
+@media (max-width: 768px) {
+  .contact-list {
+    font-size: 11px;
+  }
+}
+
+
+.bottom {
+  background-color: #cc8400;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.bottom-list {
+  display: inline-flex;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.bottom-link {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #4F4F4F;
+}
+
+@media (max-width: 768px) {
+  .bottom-link {
+    font-size: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+#vantaggi {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.form-bottom {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  color: #66595c;
+}
+
+/* hover.css */
+.hvr-sweep-to-bottom:before {
+  background: #ffa500;
+}
+
+.hvr-radial-out:before {
+  background: #ffa500;
+}
+
+.hvr-shutter-in-horizontal {
+  background: #ffa500;
+}
+
+.hvr-shutter-in-horizontal:before {
+  background: #fff;
+}
+
+.hvr-underline-from-center:before {
+  background: #ffa500;
+}
+
+/* termini e condizioni */
+.terms-logo {
+  border: 3px solid #ffa500;
+  border-radius: 100%;
+  margin-top: 100px;
+}
+
+.terms-bottom {
+  height: 120px;
+  background-color: #ffa500;
+  width: 100%;
+  padding: 20px;
+}
+
+.inmagik-logo-terms {
+  width: 50px;
+  height: auto;
+}
